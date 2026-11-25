@@ -11,10 +11,10 @@ import { join } from "node:path";
 const OUT_DIR = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 const MAX_CHARS = 160;
 
-// Printed-label register: the conditions add up to almost no working hours.
+// v2: printed-label register: a false reading under pressure, then a dated hazard.
 const ENTRY =
-  "WARNING: Do not operate before coffee, during meetings, or after 3 p.m. " +
-  "Safe operating window: 10:40 to 10:55 a.m., Tuesdays only.";
+  "WARNING: Contents will say 'I'm fine' under pressure. Do not believe label. " +
+  "May reopen an argument from 2017 without notice, usually at 11:48 p.m.";
 
 function fail(message: string): never {
   console.error("entry.txt rejected: " + message);
