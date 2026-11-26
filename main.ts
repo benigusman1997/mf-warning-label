@@ -13,8 +13,8 @@ const MAX_CHARS = 160;
 
 // v2: printed-label register: a false reading under pressure, then a dated hazard.
 const ENTRY =
-  "WARNING: Contents will say 'I'm fine' under pressure. Do not believe label. " +
-  "May reopen an argument from 2017 without notice, usually at 11:48 p.m.";
+  "WARNING: Unit will announce 'leaving in five minutes,' then talk in the doorway " +
+  "for 45. Coat on is not an indicator. Keys in hand is not an indicator.";
 
 function fail(message: string): never {
   console.error("entry.txt rejected: " + message);
